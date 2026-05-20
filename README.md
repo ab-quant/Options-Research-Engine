@@ -1,2 +1,2 @@
-# Options-Research-Engine-Volatility-and-Multi-Leg-Strategy-Analytics
+# Options Research Engine – Volatility & Multi-Leg Strategy Analytics
 Modular options analytics and research framework focused on volatility analysis, multi-leg strategy evaluation, and derivatives risk workflows. Includes Greeks analytics, payoff visualization, spread evaluation, execution-aware research pipelines, and portfolio-level exposure analysis designed for systematic options research and scalable analytics.
