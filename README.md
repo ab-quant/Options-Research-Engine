@@ -93,6 +93,21 @@ options-research-engine/
 ```
 ---
 
+## Core Engine Modules
+
+```text
+core/
+├── pricing/           # Options pricing models
+├── greeks/            # Greeks computation engine
+├── volatility/        # IV/HV/RV analytics
+├── surfaces/          # IV surface construction
+├── spreads/           # Multi-leg strategy analytics
+├── portfolio/         # Portfolio risk aggregation
+├── backtesting/       # Event-driven simulation engine
+├── execution/         # Slippage and execution modeling
+└── risk/              # Stress testing and risk analytics
+```
+
 ## Research Areas
 
 ### Volatility Research
