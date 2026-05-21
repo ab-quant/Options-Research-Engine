@@ -81,68 +81,16 @@ The architecture emphasizes modularity, robustness, execution realism, and produ
 ```text
 options-research-engine/
 │
-├── README.md
-├── requirements.txt
-├── pyproject.toml
-├── setup.py
-├── LICENSE
-│
-├── config/
-│   ├── asset_config/
-│   ├── market_config/
-│   ├── execution/
-│   └── risk/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── volatility/
-│   └── surfaces/
-│
-├── research/
-│   ├── notebooks/
-│   ├── experiments/
-│   └── studies/
-│
-├── core/
-│   ├── instruments/
-│   ├── pricing/
-│   ├── greeks/
-│   ├── volatility/
-│   ├── surfaces/
-│   ├── spreads/
-│   ├── portfolio/
-│   ├── execution/
-│   ├── backtesting/
-│   ├── risk/
-│   └── analytics/
-│
-├── dashboard/
-│   ├── frontend/
-│   └── api/
-│
-├── strategies/
-│   ├── volatility/
-│   ├── spreads/
-│   ├── arbitrage/
-│   └── dispersion/
-│
-├── tests/
-│   ├── unit/
-│   ├── integration/
-│   └── regression/
-│
-├── docs/
-│   ├── architecture/
-│   ├── workflows/
-│   └── examples/
-│
-└── scripts/
-    ├── data_pipeline/
-    ├── loaders/
-    └── utilities/
+├── core/              # Pricing, Greeks, volatility, risk engines
+├── strategies/        # Volatility and spread research
+├── research/          # Quant experiments and notebooks
+├── dashboard/         # Visualization and monitoring interfaces
+├── data/              # Market and volatility datasets
+├── config/            # Research and execution configurations
+├── tests/             # Unit and integration testing
+├── docs/              # Architecture and workflow documentation
+└── scripts/           # Utilities and data pipelines
 ```
-
 ---
 
 ## Research Areas
