@@ -76,6 +76,14 @@ The architecture emphasizes modularity, robustness, execution realism, and produ
 
 ---
 
+## Example Workflow
+
+<p align="center">
+  <img src="docs/images/Options_example.png" width="100%">
+</p>
+
+---
+
 ## Repository Architecture
 
 ```text
